@@ -1,32 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Colors</title>
-  </head>
-  <body>
-    <!-- Default colors -->
-    <!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
+</head>
+<body>
+<!-- Default colors -->
+<!-- white, black, red, green, blue, orange, yellow, purple, lime, emerald, teal, cyan, indigo, violet, fuchsia, pink, rose, sky, gray, slate, zinc, neutral, stone, amber,  -->
 
-    <!-- Text Colors -->
-
-    <!-- Background Colors -->
-
-    <!-- Text Underline -->
-
-    <!-- Border Colors -->
-
-    <!-- Divide Colors -->
-
-    <!-- Outline Colors -->
-
-    <!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
-
-    <!-- Accent Colors -->
-
-    <!-- Arbitrary Colors -->
-  </body>
+<!-- Text Colors -->
+<p class="text-black">
+    Tailwind makes it easy to style elements.
+</p>
+<p class="text-red-900">
+    This text is in maroon.
+</p>
+<p class="text-green-800">
+    This text is in slightly light green.
+</p>
+<p class="text-emerald-700">
+    This text is in emerald.
+</p>
+<p class="text-zinc-600">
+    This text is in zinc.
+</p>
+<p class="text-slate-800">
+    This text is in slate.
+</p>
+<br>
+<!-- Background Colors -->
+<p class="bg-slate-800 text-yellow-100">
+    Background in slate, text in yellow.
+</p>
+<p class="bg-emerald-400">
+    Background is in emerald.
+</p>
+<p class="bg-yellow-300">
+    Background in yellow.
+</p>
+<p class="bg-indigo-950 text-white">
+    Background in indigo, text in white.
+</p>
+<br>
+<!-- Text Underline -->
+<p class="underline">
+    Normal underlined text.
+</p>
+<p class="underline decoration-red-500">
+    Red underlined text.
+</p>
+<p class="underline decoration-yellow-600">
+    Yellow underlined text.
+</p>
+<br>
+<!-- Border Colors -->
+<input type="text" class="border border-blue-500">
+<input type="text" class="border border-green-500">
+<input type="text" class="border border-red-500">
+<br>
+<!-- Divide Colors -->
+<div class="divide-y divide-cyan-600">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+    <div>Item 4</div>
+    <div>Item 5</div>
+</div>
+<!-- Outline Colors -->
+<br>
+<button class="outline outline-blue-400">
+    Hello
+</button>
+<br>
+<!-- Box Shadow Colors (Opacity defaults to 100, but you can set it)-->
+<button class="shadow-lg bg-cyan-500 shadow-purple-500">
+    Shadow
+</button>
+<br>
+<!-- Accent Colors -->
+<label>
+    <input type="checkbox" class="accent-purple-300" checked>
+    checkbox
+</label>
+<br>
+<!-- Arbitrary Colors -->
+<div class="bg-[#427fab]">Arbitrary color</div>
+</body>
 </html>
