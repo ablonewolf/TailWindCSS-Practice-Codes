@@ -1,37 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <title>TailwindCSS</title>
-  </head>
-  <body>
-    <!-- Positioning -->
-
-    <!-- Top left corner -->
-
-    <!-- Top right corner -->
-
-    <!-- Bottom left corner -->
-
-    <!-- Bottom right corner -->
-
-    <!-- Span top edge -->
-
-    <!-- Span left edge -->
-
-    <!-- Span right edge -->
-
-    <!-- Span bottom edge -->
-
-    <!-- Display Classes -->
-
-    <!-- Z-Index -->
-
-    <!-- Floats -->
-  </body>
+</head>
+<body>
+<!-- Positioning -->
+<div class="relative w-1/2 h-12 bg-red-200">
+    <p>Relative Parent element</p>
+    <div class="absolute bottom-0 right-0 bg-red-600">
+        <p>Absolute child element</p>
+    </div>
+</div>
+<br>
+<br>
+<!-- Top left corner -->
+<div class="relative w-80 h-16 bg-green-400">
+    <div class="absolute top-0 left-0 bg-green-600">
+        <p>Absolute Child Element on top left</p>
+    </div>
+</div>
+<br>
+<br>
+<!-- Top right corner -->
+<div class="relative w-1/2 h-14 bg-blue-200">
+    <div class="absolute top-0 right-0 bg-blue-400">
+        <p>Absolute Child Element on top right</p>
+    </div>
+</div>
+<br>
+<br>
+<!-- Bottom left corner -->
+<div class="relative w-1/2 h-16 bg-cyan-300">
+    <div class="absolute bottom-0 left-0 bg-cyan-600">
+        <p>Absolute Child Element on bottom left</p>
+    </div>
+</div>
+<br>
+<br>
+<!-- Bottom right corner -->
+<div class="relative w-1/2 h-16 bg-fuchsia-400">
+    <div class="absolute bottom-0 right-0 bg-fuchsia-800">
+        <p>Absolute Child Element on bottom right</p>
+    </div>
+</div>
+<br>
+<br>
+<!-- Span top edge -->
+<div class="relative w-32 h-32 bg-amber-200-400">
+    <div class="absolute inset-x-0 top-0 h-16 bg-amber-800">
+    </div>
+</div>
+<!-- Span left edge -->
+<div class="relative w-32 h-32 bg-amber-200-400">
+    <div class="absolute inset-y-0 left-0 w-16 bg-amber-800">
+    </div>
+</div>
+<!-- Span right edge -->
+<div class="relative w-32 h-32 bg-amber-200-400">
+    <div class="absolute inset-y-0 right-0 w-16 bg-amber-800">
+    </div>
+</div>
+<!-- Span bottom edge -->
+<div class="relative w-32 h-32 bg-amber-200-400">
+    <div class="absolute inset-x-0 bottom-0 h-16 bg-amber-800">
+    </div>
+</div>
+<br>
+<br>
+</body>
 </html>
 
 <!-- Position Classes
